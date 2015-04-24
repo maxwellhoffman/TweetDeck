@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=manual
 
 # Custom for Visual Studio
 *.cs     diff=csharp
@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+*.css linguist-language=ColdFusion
+
+*.js linguist-language=ColdFusion
+   *.css linguist-language=ColdFusion
